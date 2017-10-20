@@ -14,6 +14,10 @@ To keep image sizes as small as possible, we use the Alpine Linux base image (on
 
 The template Singularity file can be found in the root of this repository. Please rename the file according to our SOP to `Singularity.<toolname/pipeline-name>` or accordingly. Accompanying this, a `build.sh` file is also stored here, typically used to install stuff in the image environment.
 
+### Git TAGS
+
+Please use Git tags `git tag <tagname>` when finished with container development to make sure we know exactly which version was built when and was considered stable at some point. 
+
 ## Author
 
 * [Alexander Peltzer](https://github.com/apeltzer)
