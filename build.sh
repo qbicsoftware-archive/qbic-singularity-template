@@ -9,6 +9,9 @@ apk --update add bash wget curl build-base gcc git python-dev ca-certificates py
 
 #Run the installation here or in the Singularity file itself, no matter which one 
 
+#Create mountpoints that we need
+mkdir -p /lustre_cfc/qbic/megSAP-data
+
 #Clean up
 rm -rf /var/cache/apk/*
 
