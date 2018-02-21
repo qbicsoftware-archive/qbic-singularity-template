@@ -6,6 +6,11 @@ For further information or help, please contact: alexander.peltzer@qbic.uni-tueb
 
 ## Documentation
 
+You can call the tool typically by using the Singularity container hosted on Singularity Hub like this:
+```
+singularity exec shub://qbicsoftware/qbic-singularity-<toolname> <toolname/command/etc> 
+```
+
 ### Image sizes
 
 To keep image sizes as small as possible, we use the Alpine Linux base image (only 5MB in size)! instead of using full-size dependencies that we dont want to have in our environment at all. 
