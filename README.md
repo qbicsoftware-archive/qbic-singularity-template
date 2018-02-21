@@ -1,5 +1,7 @@
 # Containers for QBIC
 
+<Please include the Singularity Hub Badge here in all repositories if possible!> 
+
 This is the central template repository for creating Singularity containers being used at [QBIC](https://qbic.life) in Tübingen, Germany.
 
 For further information or help, please contact: alexander.peltzer@qbic.uni-tuebingen.de. 
