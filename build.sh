@@ -7,7 +7,7 @@ set -euo pipefail
 #Check for packages here: https://pkgs.alpinelinux.org/packages
 apk --update add bash wget curl build-base gcc git python-dev ca-certificates py-pip freetype-dev libpng libpng-dev
 
-#Run the installation here or in the Singularity file itself, no matter which one 
+#The actual tool installation should be done in the Singularity file itself to make the entire thing portable! 
 
 #Create mountpoints that we need
 mkdir -p /lustre_cfc/qbic/megSAP-data
