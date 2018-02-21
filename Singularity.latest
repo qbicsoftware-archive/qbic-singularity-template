@@ -1,5 +1,5 @@
 Bootstrap:docker
-From:alpine:3.6
+From:alpine:3.7
 
 %post
 /bin/sh build.sh
